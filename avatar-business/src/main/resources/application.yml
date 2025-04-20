@@ -1,0 +1,9 @@
+server:
+  port: 11035
+
+spring:
+  application:
+    name: avatar-business
+  profiles:
+    active: test
+

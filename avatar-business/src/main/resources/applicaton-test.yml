@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: nacos:avatar-business-test.yaml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: public
+#        username: nacos
+#        password: Xnrpt@2024
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: public
+        file-extension: yaml
+#        username: nacos
+#        password: Xnrpt@2024
+        shared-configs:
+          - data-id: avatar-business-test.yaml
+            refresh: true
+            group: DEFAULT_GROUP
