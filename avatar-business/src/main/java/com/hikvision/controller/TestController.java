@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version 1.0
  **/
 @RestController
-@RequestMapping("/test/")
+@RequestMapping("/api/")
 public class TestController {
 
     @Value("${user.age}")
