@@ -1,5 +1,7 @@
 server:
   port: 11035
+  servlet:
+    context-path: /review_server
 
 spring:
   application:
