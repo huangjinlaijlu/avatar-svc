@@ -1,17 +1,16 @@
-# 第一阶段：如果需要在 Docker 内构建，使用 GHCR 的 Maven
-FROM ghcr.io/graalvm/graalvm-ce:java8 AS builder
-WORKDIR /build
-COPY pom.xml .
-RUN mvn dependency:go-offline -q
-COPY src ./src
-RUN mvn clean package -DskipTests -q
+FROM ghcr.io/linuxserver/nginx:latest
 
-# 第二阶段：使用 GHCR 的 OpenJDK 运行环境
-FROM ghcr.io/graalvm/graalvm-ce:java8
-RUN groupadd -r appgroup && useradd -r -g appgroup appuser
+# 安装 OpenJDK 8
+RUN apk add --no-cache openjdk8-jre
+
 WORKDIR /app
-COPY --from=builder /build/target/*.jar app.jar
+
+# 具体指定 JAR 文件名
+COPY target/avatar-business-1.0-SNAPSHOT.jar app.jar
+
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 RUN chown -R appuser:appgroup /app
 USER appuser
+
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]

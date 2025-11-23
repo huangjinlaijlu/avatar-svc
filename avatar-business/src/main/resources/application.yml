@@ -9,3 +9,6 @@ spring:
   profiles:
     active: test
 
+
+user:
+  age: 25
