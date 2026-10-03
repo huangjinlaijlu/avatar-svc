@@ -12,6 +12,9 @@
         <module>avatar-business</module>
         <module>common</module>
         <module>common-dao</module>
+        <module>alert-notify</module>
+        <module>alert-core</module>
+        <module>alert-receiver</module>
     </modules>
 
     <properties>
@@ -24,7 +27,7 @@
         <mysql.version>8.0.32</mysql.version>
         <baomidou.version>3.5.1</baomidou.version>
         <okhttp.version>4.9.3</okhttp.version>
-        <hutool.version>5.8.32</hutool.version>
+        <hutool.version>5.1.0</hutool.version>
         <jedis.version>4.4.3</jedis.version>
         <druid.spring.boot.version>1.2.5</druid.spring.boot.version>
         <spring.version>5.3.31</spring.version>

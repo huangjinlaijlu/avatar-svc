@@ -1,0 +1,4 @@
+com/hikvision/alert/core/Alert.class
+com/hikvision/alert/core/Severity.class
+com/hikvision/alert/core/Status.class
+com/hikvision/alert/core/AlertIds.class

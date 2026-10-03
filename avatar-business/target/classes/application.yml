@@ -1,0 +1,14 @@
+server:
+  port: 11035
+  servlet:
+    context-path: /review_server
+
+spring:
+  application:
+    name: avatar-business
+  profiles:
+    active: test
+
+
+user:
+  age: 25

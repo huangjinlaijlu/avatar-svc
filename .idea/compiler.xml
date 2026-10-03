@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-dao" />
+        <module name="alert-receiver" />
+        <module name="alert-core" />
+        <module name="common" />
+        <module name="alert-notify" />
+        <module name="avatar-business" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="avatar-business" options="" />
+      <module name="common" options="" />
+      <module name="common-dao" options="" />
+    </option>
+  </component>
+</project>

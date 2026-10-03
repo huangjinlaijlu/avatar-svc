@@ -1,0 +1,6 @@
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/AlertReceiverAutoConfiguration.java
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/adapter/PrometheusWebhookController.java
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/config/AlertRouteProperties.java
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/controller/AlertWebhookController.java
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/dedup/Deduplicator.java
+/Users/huangjinlai/Documents/workshop/avatar-svc/alert-receiver/src/main/java/com/hikvision/alert/receiver/service/AlertDispatchService.java

@@ -1,0 +1,7 @@
+com/hikvision/alert/receiver/adapter/PrometheusWebhookController.class
+com/hikvision/alert/receiver/config/AlertRouteProperties.class
+com/hikvision/alert/receiver/controller/AlertWebhookController.class
+com/hikvision/alert/receiver/service/AlertDispatchService.class
+com/hikvision/alert/receiver/dedup/Deduplicator.class
+com/hikvision/alert/receiver/config/AlertRouteProperties$RouteRule.class
+com/hikvision/alert/receiver/AlertReceiverAutoConfiguration.class
