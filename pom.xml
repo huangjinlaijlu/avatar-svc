@@ -15,6 +15,7 @@
         <module>alert-notify</module>
         <module>alert-core</module>
         <module>alert-receiver</module>
+        <module>design-pattern</module>
     </modules>
 
     <properties>
